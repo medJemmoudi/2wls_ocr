@@ -1,0 +1,24 @@
+{
+    "name": "2wls/ocr-api",
+    "description": "Tesseract-OCR API for 2WLS",
+    "require": {
+        "slim/slim": "^2.6",
+        "voodoophp/voodorm": "^2.1",
+        "akrabat/rka-slim-controller": "^2.0",
+        "thiagoalessio/tesseract_ocr":">= 0.2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers/",
+            "app/models/",
+            "app/repositories/"
+        ]
+    },
+    "license": "",
+    "authors": [
+        {
+            "name": "Jemmoudi",
+            "email": "mohammed.jemmoudi@2wls.net"
+        }
+    ]
+}
